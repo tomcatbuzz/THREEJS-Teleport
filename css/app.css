@@ -1,0 +1,49 @@
+* {
+  margin:0;
+  padding:0
+} 
+
+canvas {
+  display: block;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#list div {
+  padding: 10px;
+  background-color: #fff;
+}
+
+#list div:hover {
+  background-color: #ccc;
+}
+
+#close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#close div {
+  padding: 10px;
+  background-color: #fff;
+}
+
+#close div:hover {
+  background-color: #ccc;
+}
